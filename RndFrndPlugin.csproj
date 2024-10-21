@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ArchiSteamFarm">
+      <HintPath>ArchiSteamFarm.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamKit2">
+      <HintPath>SteamKit2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
